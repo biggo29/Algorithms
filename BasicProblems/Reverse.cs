@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace BasicProblems
@@ -29,7 +30,7 @@ namespace BasicProblems
             //declaring string for reverse. 
             string sentense = "I eat";
             string reverseString = "";
-            //declate the seperator
+            //declare the seperator
             char[] seperator = { ' ' };
             //split the sentence with space
             String[] stringList = sentense.Split(seperator);
@@ -43,6 +44,17 @@ namespace BasicProblems
             char[] array = str.ToCharArray();
             Array.Reverse(array);
             return new string(array);
+        }
+
+        public static void GetReverseStringWordWise()
+        {
+            Console.WriteLine("\n");
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("Reverse a string word wise.");
+            Console.WriteLine("---------------------------");
+            //declaring string for reverse. 
+            string sentence = "This String will be reversed";
+            Console.WriteLine("Reversed String: {0}", string.Join(" ", sentence.Split(' ').Reverse()));
         }
     }
 }

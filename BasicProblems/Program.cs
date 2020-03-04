@@ -25,6 +25,11 @@ namespace BasicProblems
             //-------------------------------------------------------------------------
             ReadFile.GetSum();
 
+            //----------------------------
+            // Reverse a string word wise.
+            //----------------------------
+            Reverse.GetReverseStringWordWise();
+
         }
     }
 }
