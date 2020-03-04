@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shoaib Shahria\\source\\repos\\BasicProblems\\BasicProblems\\BasicProblems.csproj": {}
+    "E:\\Biggo\\other\\Algorithms-Basic-Problems\\BasicProblems\\BasicProblems.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shoaib Shahria\\source\\repos\\BasicProblems\\BasicProblems\\BasicProblems.csproj": {
+    "E:\\Biggo\\other\\Algorithms-Basic-Problems\\BasicProblems\\BasicProblems.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shoaib Shahria\\source\\repos\\BasicProblems\\BasicProblems\\BasicProblems.csproj",
+        "projectUniqueName": "E:\\Biggo\\other\\Algorithms-Basic-Problems\\BasicProblems\\BasicProblems.csproj",
         "projectName": "BasicProblems",
-        "projectPath": "C:\\Users\\Shoaib Shahria\\source\\repos\\BasicProblems\\BasicProblems\\BasicProblems.csproj",
+        "projectPath": "E:\\Biggo\\other\\Algorithms-Basic-Problems\\BasicProblems\\BasicProblems.csproj",
         "packagesPath": "C:\\Users\\Shoaib Shahria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shoaib Shahria\\source\\repos\\BasicProblems\\BasicProblems\\obj\\",
+        "outputPath": "E:\\Biggo\\other\\Algorithms-Basic-Problems\\BasicProblems\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
