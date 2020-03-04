@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BasicProblems
 {
-    public class ReverseString
+    public class Reverse
     {
         public static void GetReverseString()
         {
@@ -17,7 +17,7 @@ namespace BasicProblems
             //printing reverse string
             Console.WriteLine("The input string is: {0}", sentense);
             //calling ReverseString class
-            Console.WriteLine("The reverse string of the input is: {0}", ReverseString.StringReverse(sentense));
+            Console.WriteLine("The reverse string of the input is: {0}", Reverse.StringReverse(sentense));
         }
 
         public static void GetReverseStringLastWord()
@@ -34,7 +34,7 @@ namespace BasicProblems
             //split the sentence with space
             String[] stringList = sentense.Split(seperator);
             //calling reverse method and concatenating with 1st string 
-            reverseString = stringList[0] + ' ' + ReverseString.StringReverse(stringList[1]);
+            reverseString = stringList[0] + ' ' + Reverse.StringReverse(stringList[1]);
             //printing the reverse string
             Console.WriteLine("The reverse string(Last word) of the input is: {0}", reverseString);
         }

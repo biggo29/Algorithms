@@ -13,12 +13,12 @@ namespace BasicProblems
             //--------------------
             //print reverse string
             //--------------------
-            ReverseString.GetReverseString();
+            Reverse.GetReverseString();
 
             //--------------------------
             //print "I eat" to "I tae"
             //--------------------------
-            ReverseString.GetReverseStringLastWord();
+            Reverse.GetReverseStringLastWord();
             
             //-------------------------------------------------------------------------
             // Take input from file where each line contains a integer and find average
